@@ -13,39 +13,95 @@
     <style>
         i.fab.fa-github:hover {
         color: #333333;
+        transition: .3s;
         }
 
         i.fab.fa-github:focus {
         color: #333333; 
+        transition: .3s;
         }
 
         i.fab.fa-linkedin-in:hover {
         color:#0077b5;
+        transition: .3s;
         }
 
         i.fab.fa-linkedin-in:focus {
         color:#0077b5;
+        transition: .3s;
         }
 
         i.fab.fa-facebook-f:hover{
             color: #4267B2;
+            transition: .3s;
         }
 
         i.fab.fa-facebook-f:focus{
             color: #4267B2;
+        }
+
+        input#name::placeholder {
+            font-size: 14px;
+        }
+
+        input#email::placeholder {
+            font-size: 14px;
+        }
+
+        textarea#message::placeholder {
+            font-size: 14px;
+        }
+
+        aside .widget .widget-content {
+            font-size: 11px;
+        }
+
+        p.mb-4 {
+            font-size: 15px !important;
+        }
+
+        button.btn.btn-white.btn-share.ml-auto.mr-3.ml-md-0.mr-md-auto {
+            background-color: #f3f3f3;
+            cursor: auto;
+        }
+
+        button.btn.btn-white.btn-share:hover {
+            box-shadow: none;
+        }
+
+        button.btn.btn-white.btn-share:focus {
+            box-shadow: none;
+            outline: none;
+        }
+
+        aside .profile-designation {
+            font-weight: 700;
+        }
+
+        .badge-white {
+            color: #0052c3;
+            background-color: #ffffff;
+            transition: .6s;
+        }
+
+        .badge-white:hover {
+            color: #ffffff;
+            background-color: #0052c3;
+            box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%);
+        }
+
+        .collapsible-nav.show {
+            width: 220px;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img">
-            SHARE</button>
+        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"></button>
         <nav class="collapsible-nav" id="collapsible-nav">
             <a href="index.html" class="nav-link">HOME</a>
             <a href="resume.html" class="nav-link">RESUME</a>
-            <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
-            <a href="blog.html" class="nav-link">BLOG</a>
             <a href="contact.html" class="nav-link active">CONTACT</a>
         </nav>
         <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
@@ -71,7 +127,7 @@
                     <p><strong>BIRTHDAY :</strong> 06 April 1998</p>
                     <p style="width: max-content"><strong>WEBSITE :</strong> https://newcoder666.github.io/harsh/</p>
                     <p><strong>PHONE :</strong> +91 811 889 9651</p>
-                    <p style="width: max-content;"><strong>MAIL :</strong> hpareek@student.nitw.ac.in</p>
+                    <p style="width: max-content;"><strong>MAIL :</strong> harsh.pareek06@gmail.com</p>
                     <p><strong>LOCATION :</strong> Rajasthan, India</p>
                     <a href="https://drive.google.com/file/d/1Z6lkw3tKTmcOMc0lk5L1QewpVlP41AE1/view?usp=sharing"><button class="btn btn-download-cv btn-primary rounded-pill"> <img src="assets/images/download.svg" alt="download"
                         class="btn-img">DOWNLOAD CV </button></a>
@@ -111,7 +167,7 @@
                     </div>
                     <div class="contact-card">
                         <h6 class="contact-card-title">Email Me</h6>
-                        <p class="contact-card-content">hpareek@student.nitw.ac.in</p>
+                        <p class="contact-card-content">harsh.pareek06@gmail.com</p>
                     </div>
                 </div>
 
